@@ -26,4 +26,8 @@ Por lo general este comando s eusa con la bandera -m  y un pequeño texto que de
         
 -Muestra el historial completo de commits del repo, o de un archivo si se especifica.
 
+###  .gitignore
+- Este archivo nos permite ignorar archivos o directorios los cuales no queramos que entren en el seguimiento de nuestro repositorio.
+        - nombres de archivos o carpetas
+        - Wildcards * (extensiones)
 
