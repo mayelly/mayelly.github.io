@@ -61,3 +61,8 @@ Por lo general este comando s eusa con la bandera -m  y un pequeño texto que de
         *   git checkout -b inicio
         *  git diff 
         *       -muestra que cambios se hicieron
+## conflictos de merging
+a vecs sis e está trabajando en 2 amas al mismo tiempo, modificam¿ndo un archivo,se puede generar conflictos, por lo q es necesario corregirlos.
+# git branch -D nombre archivo
+
+-para borrar una rama
