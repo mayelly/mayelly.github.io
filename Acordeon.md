@@ -19,3 +19,11 @@
   -Este comando registra nuestro nuevo estado y lo registra en la historia de nuestro repositorio.
 Por lo general este comando s eusa con la bandera -m  y un pequeño texto que describa lo q hicimos.
 
+## $ git log (--oneline <archivo>)
+- Este comando nos muesta el historial de comits que hemos hecho en nuestro proyecto.
+        - La bandera --oneline muestra cada entrada en una sola línea.
+        - También es posible ver historia de un solo archivo, pasando como argumento el nombre de éste.
+        
+-Muestra el historial completo de commits del repo, o de un archivo si se especifica.
+
+
