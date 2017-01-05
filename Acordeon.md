@@ -38,12 +38,21 @@ Por lo general este comando s eusa con la bandera -m  y un pequeño texto que de
 ### $ git revert
 -Este comando nos revierte un cambio ya registrado, creando un nuevo comit.
         -Lleva como argumento el id del commit a revertir.
-## $ git resert
+## $ git reset
 
 -Regresa al último estado guardado, borrando permanentemente cualquier cambio en el área de pruebas
     -lleva la bandera --hard
 ## $ git clean 
 -Borra permanentemente los archivos no seguidos.
     -lleva la bandera  -f
-    
-        
+## $ branch    
+        Una rama (branch) es, en pocas palabras, una línea independiente de trabajo, la cual no afecta a nuestra rama principal (master), sin embargo, tiene la capaidad de fusionarse con otras ramas, incluida la principal.
+
+##  $ git branch
+-Lista las ramas existentes en el epositorio.
+    -si se le agrega [<nombre>] de rama con ese nombre
+## $ git mege
+
+-Este comando fusiona dos ramas, fusiona una rama objetivo con la rama donde nos encontramos actualmente.
+ -recibe como párametro la rama objetivo
+ 
