@@ -66,3 +66,15 @@ a vecs sis e está trabajando en 2 amas al mismo tiempo, modificam¿ndo un archi
 # git branch -D nombre archivo
 
 -para borrar una rama
+
+## $ git remote
+
+-Este comando nos permite hacer diversas  operaciones sobre repositorios remotos
+
+--add: agrega un nuevo remoto
+
+--remove: elimina un remoto
+
+     $ git remote add <nombre> <url>
+     $ git remote remove <nombre>
+     por lo general el nombre del repositorio remoro es: origin
