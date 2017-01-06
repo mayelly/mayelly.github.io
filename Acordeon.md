@@ -93,5 +93,19 @@ Este comando nos permite mandar cambios registrados de nuestro repositorio local
 git clone y direccion donde esta la carpeta a clonar
 
 para hacer un revert despues de haber hecho un commit se hace primero un pull despues un revert y luego un push
-     
-     
+
+---Pull Request
+
+-este metodo permite a los equipos de desarrollo controlar que cambios se realizan en un repositorio
+--el propietario del repositorio recibe peticiones de cambio, las cuales deben ser aprobadas por el.
+-tipicamente un colaborador hace fork del proyecto maestro, y al realizar sus cambios realiza pull request.
+-tambien es posible hacer pull request entre ramas
+
+----issues
+
+github ofrece la capacidad de crear entradas en nuestro repositorio, las cuales pueden ser usadas para especificar varias cosas, desde mejoras del sistema, problemas a resolver o nuevas ideas a implementar.
+
+
+
+
+
