@@ -78,3 +78,20 @@ a vecs sis e está trabajando en 2 amas al mismo tiempo, modificam¿ndo un archi
      $ git remote add <nombre> <url>
      $ git remote remove <nombre>
      por lo general el nombre del repositorio remoro es: origin
+
+## $ git pull
+Este comando nos permite recibir el ultimo estado registradodel repositorio remoto.
+--recibe como argumentos el nombre del remoto y del branch al que queremos hacer pull
+
+## $ gitpush
+
+Este comando nos permite mandar cambios registrados de nuestro repositorio local a un repositorio remoto.
+--recibe como argumentos el nomre del remoto y del branch al que que queremos hacer pull.
+
+## $git clone
+
+git clone y direccion donde esta la carpeta a clonar
+
+para hacer un revert despues de haber hecho un commit se hace primero un pull despues un revert y luego un push
+     
+     
