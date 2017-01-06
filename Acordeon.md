@@ -55,4 +55,30 @@ Por lo general este comando s eusa con la bandera -m  y un pequeño texto que de
 
 -Este comando fusiona dos ramas, fusiona una rama objetivo con la rama donde nos encontramos actualmente.
  -recibe como párametro la rama objetivo
+<<<<<<< HEAD
  
+=======
+ * git branch inicio
+ * *git checkout inicio
+ * se sustituyen o hace lo mismo 
+        *   git checkout -b inicio
+        *  git diff 
+        *       -muestra que cambios se hicieron
+## conflictos de merging
+a vecs sis e está trabajando en 2 amas al mismo tiempo, modificam¿ndo un archivo,se puede generar conflictos, por lo q es necesario corregirlos.
+# git branch -D nombre archivo
+
+-para borrar una rama
+
+## $ git remote
+
+-Este comando nos permite hacer diversas  operaciones sobre repositorios remotos
+
+--add: agrega un nuevo remoto
+
+--remove: elimina un remoto
+
+     $ git remote add <nombre> <url>
+     $ git remote remove <nombre>
+     por lo general el nombre del repositorio remoro es: origin
+>>>>>>> seccion2
